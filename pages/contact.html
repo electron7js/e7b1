@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <script src="JS/script.js">
+ </script>
+ <style>
+    footer{
+        bottom:-150px;
+    }
+    .middle{
+        top:89px;
+        height: 600px;
+    }
+ </style>
+</head>
+
+<body>
+    <div class="container">
+        <header id="top">
+            <a href="http://bijeshmanstha.com.np"><figure><img src="images/logo.png" alt="logo"></figure></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li> <a href="recipes.html" title="Recipes">Recipes</a></li>
+                    <li> <a href="about.html" title="About">About</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="middle">
+            <h1>
+                Contact
+            </h1>
+            
+        <form id="contactform" method="get" target="_self">
+            <table class="contactform">
+            <tr>
+                <td>Name:</td><td><input type="text" placeholder="Name" name="name" id="name" required></td>
+            </tr>
+            <tr>
+                <td>Phone number:</td><td><input type="text" name="phoneno" placeholder="Phone number" id="phoneno" required ></td>
+            </tr>
+            <tr>
+                <td>Email:</td><td><input type="email" name="email" placeholder="Email" id="email"required></td>
+            </tr>
+            <tr>
+                <td>Message:</td><td><textarea name="message" placeholder="Your Message" id="message" rows="10" cols="50" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="validate()" value="Submit" title="submit" > </td><td><input type="reset" value="Clear"></td>
+            </tr>
+            </table>
+        </form>
+             </div>
+             <footer id="bottom">
+                <div class="sitemap">
+                    <p>Site Map</p>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <li><a href="recipes.html" title="Recipes">Recipes</a></li>
+                            <li><a href="about.html" title="About">About</a></li>
+                            <li><a href="contact.html" title="Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+    
+                </div>
+                <div class="socials">
+                    <p>Socials</p>
+    
+                    <nav>
+                        <ul>
+    
+                            <li><a href="https://instagram.com/bijeshman" title="instagram"><img
+                                        src="images/instagram-logo.png" alt="Instagram logo" class="iconlogo"><span
+                                        class="iconlink">@bijeshman</span> </a>
+                            </li>
+    
+    
+                            <li> <a href="mailto:bijeshmansth.bs@gmail.com" title="email"><img src="images/email-icon.jpg"
+                                        alt="email icon" class="iconlogo"><span class="iconlink">Email</span></a></li>
+    
+                        </ul>
+                    </nav>
+    
+                </div>
+                <div class="copyright">&copy;bijeshmanstha.com.np, all rights reserved</div>
+            </footer>
+    </div>
+</body>
+
+</html>

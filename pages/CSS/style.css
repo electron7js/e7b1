@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+html {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+}
+body {
+    background: #0d0d0d;
+}
+a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+.container {
+    min-height: 100%;
+    height: inherit;
+    width: 1140px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.homepagecontent{  
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#sidebar {
+    display: inline;
+    position: sticky;
+    top: 10px;
+    float: right;
+    background: #FF8E3C ;
+    height: 320px;
+    width: 230px;
+    margin-right: 30px;
+    margin-top: 20px;
+    z-index: 100;
+    border-radius: 20px;
+}
+#sidebar:hover{background:#f87a14}
+#sidebar h3{
+    border-radius: 20px 20px 0px 0px;
+    background: #0d0d0d;  
+    color: #fffffe;          
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+#sidebar nav ul li {
+    text-align: center;
+    text-decoration: none;
+    color: #0d0d0d;
+    font-weight: bold;
+    
+    padding: 10px;
+    transition: background 0.2s;
+}
+#sidebar li:hover{
+    background: #FFB55E;      
+}
+
+
+.middle {
+    position: relative;
+    top: 100px;
+    width: inherit;
+    height: 3250px;
+    background-color: #fffffe;
+}
+.content{float: left;
+    margin-right: 0px;
+    margin-left: 30px;
+width: 800px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    width: inherit;
+    height: 110px;
+    background-color: #FF8E3C;
+    transition: 0.5s;
+    transition-property: background-color , padding;
+}
+header:hover{
+    background-color: #f87a14;
+}
+
+header nav ul {
+    display: inline-flex;
+    float: right;
+    position: relative;
+    top: -16px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+header figure {
+    float: left;
+    position: relative;
+    left: 4%;
+    margin: 0px;
+}
+
+header figure img {
+    width: 160px;
+}
+
+header nav ul li a {
+    top: 45px;
+    position: relative;
+    padding: 25px;
+    margin: 20px;
+    transition:  all 0.5s;
+    
+}
+
+header nav ul a:hover {
+    background-color: #FFB55E;
+    padding: 45px;
+    margin: 0px;
+}
+
+footer {
+    height: 265px;
+    width: inherit;
+    position: absolute;
+    bottom: -2850px;
+    background-color: #0d0d0d;
+    color: #fffffe;
+}
+
+footer a {
+
+    height: 20px;
+    text-decoration: none;
+    color: #fffffe;
+    padding: 4px;
+}
+
+footer .sitemap p {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer .sitemap ul:hover{
+    padding: 5px;
+    background-color: #fffffe;
+    transition: all 0.5s;
+    
+}
+footer .sitemap ul:hover li a{
+    transition: all 0.5s;
+    font-weight: bold;
+    color: #0d0d0d;
+}
+footer .socials nav {
+    width: 200px;
+}
+
+footer .socials p {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+footer .sitemap {
+    float: left;
+    width: 10%;
+    color: #fffffe;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 7%;
+}
+
+footer .socials {
+    float: right;
+    margin-right: 10%;
+    width: 10%;
+    color: #fffffe;
+    padding: 5px;
+}
+
+.iconlogo {
+    display: inline;
+    height: 20px;
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+.iconlink {
+    position: relative;
+    left: -25px;
+}
+.locator{
+    position: relative;
+    top:10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0d0d0d;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    color: #fffffe;
+}
+.tags{
+        position: absolute;
+        top:20px;
+        right: 30%;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: #0d0d0d;
+        width: 200px;
+        height: 60px;
+          padding: 5px;
+        padding-left: 20px;
+        color: #fffffe;
+    
+}
+h1{
+    margin-left: 0px;
+    padding: 20px;
+}
+.titlebox{
+    background-color: #FF8E3C ;
+    width: 300px;
+    height: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+.titlebox:hover{background-color: #f87a14}
+.prepinfo{
+    position: relative;
+    top:-20px;
+   
+}
+.ingredients ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+.ingredients{
+    position: relative;
+    top:20px;
+}
+figure{margin: 0px;
+padding: 0px;}
+
+.foodmainphoto{
+    width: 600px;
+    margin: 0px;
+}
+.methods{
+    position: relative;
+    top:60px;
+}
+.methods ul li{
+    padding: 20px;
+}
+.prepphoto{
+    width: 300px;
+    height: 200px;
+}
+.ingredientphoto{
+    width: 300px;
+    height: 200px;
+}
+.nutritionalinfo{
+    position: relative;
+    top:90px;
+}
+.relatedrecipes{
+    display: inline-flex;
+    position: relative;
+    top:150px;
+}
+.recipes{
+    display: inline-flex;
+    position: relative;
+    top:50px;
+}
+.recipes a{
+    position: relative;
+    left: 30px;
+}
+.relatedrecipe{
+    position: relative;
+    left: -300px;
+    top:40px;
+    padding: 20px;
+    margin: 0px;
+    width: 20%;
+}
+.relateditem{
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.contactform{
+    position: relative;
+    left: 20px;
+}
+.contactform td{
+    padding: 0px 30px 30px 30px;
+}
+h2{
+    margin-left: 30px;
+}
+.authorphoto{
+    width: 300px;
+    margin-left: 30px;
+}
+.gallery{
+    width: 1140px;
+    position: relative;
+    top:30px;
+    margin-left: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.gallery h2{margin-left: 0px;}
+
+
+.gallerythumbnail{
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
