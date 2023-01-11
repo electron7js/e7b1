@@ -5,10 +5,7 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +45,7 @@ export default function Home() {
     </style>
 </head>
 
-<body onload="autoslide() , clock()">
+<main onload="autoslide() , clock()">
 
     <div class="container">
         <header id="top">
@@ -137,9 +134,8 @@ export default function Home() {
             <div class="copyright">&copy;bijeshmanstha.com.np, all rights reserved</div>
         </footer>
     </div>
-</body>
+</main>
 
-</html>
     </div>
   )
 }
